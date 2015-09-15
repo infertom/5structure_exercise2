@@ -1,9 +1,9 @@
-﻿生成启动时间为 2015/9/15 21:52:53。
+﻿生成启动时间为 2015/9/15 22:08:01。
      1>项目“C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise2\5structure_exercise2\5structure_exercise2.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在对“Debug\5structure_exercise2.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
-         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt listing.cpp main.cpp
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt buildpage.cpp group.cpp listing.cpp main.cpp processrequest.cpp
          main.cpp
      1>d:\microsoft visual studio 10.0\vc\include\xxresult(28): error C2825: '_Fty': 当后面跟“::”时必须为类或命名空间
                  d:\microsoft visual studio 10.0\vc\include\xxresult(40): 参见对正在编译的类 模板 实例化“std::tr1::_Result_type2<__formal,_Fty,_Arg0,_Arg1>”的引用
@@ -98,19 +98,15 @@
                      _Farg1=std::tr1::_Nil &
                  ]
          listing.cpp
-     1>c:\users\infertom-pc\documents\visual studio 2010\projects\5structure_exercise2\5structure_exercise2\listing.cpp(14): error C2955: “std::iterator”: 使用类 模板 需要 模板 参数列表
-                 d:\microsoft visual studio 10.0\vc\include\xutility(337) : 参见“std::iterator”的声明
-     1>c:\users\infertom-pc\documents\visual studio 2010\projects\5structure_exercise2\5structure_exercise2\listing.cpp(15): error C2556: “std::iterator Listing::begin(void)”: 重载函数与“Listing::iterator Listing::begin(void)”只是在返回类型上不同
-                 c:\users\infertom-pc\documents\visual studio 2010\projects\5structure_exercise2\5structure_exercise2\listing.h(32) : 参见“Listing::begin”的声明
-     1>c:\users\infertom-pc\documents\visual studio 2010\projects\5structure_exercise2\5structure_exercise2\listing.cpp(15): error C2371: “Listing::begin”: 重定义；不同的基类型
-                 c:\users\infertom-pc\documents\visual studio 2010\projects\5structure_exercise2\5structure_exercise2\listing.h(32) : 参见“Listing::begin”的声明
-     1>c:\users\infertom-pc\documents\visual studio 2010\projects\5structure_exercise2\5structure_exercise2\listing.cpp(20): error C2556: “std::iterator Listing::end(void)”: 重载函数与“Listing::iterator Listing::end(void)”只是在返回类型上不同
-                 c:\users\infertom-pc\documents\visual studio 2010\projects\5structure_exercise2\5structure_exercise2\listing.h(33) : 参见“Listing::end”的声明
-     1>c:\users\infertom-pc\documents\visual studio 2010\projects\5structure_exercise2\5structure_exercise2\listing.cpp(20): error C2371: “Listing::end”: 重定义；不同的基类型
-                 c:\users\infertom-pc\documents\visual studio 2010\projects\5structure_exercise2\5structure_exercise2\listing.h(33) : 参见“Listing::end”的声明
+         group.cpp
+         正在生成代码...
+     1>c:\users\infertom-pc\documents\visual studio 2010\projects\5structure_exercise2\5structure_exercise2\group.cpp(8): warning C4715: “Group::operator[]”: 不是所有的控件路径都返回值
+         正在编译...
+         processrequest.cpp
+         buildpage.cpp
          正在生成代码...
      1>已完成生成项目“C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise2\5structure_exercise2\5structure_exercise2.vcxproj”(build 个目标)的操作 - 失败。
 
 生成失败。
 
-已用时间 00:00:03.33
+已用时间 00:00:09.34
