@@ -56,5 +56,14 @@
     <ClCompile Include="group.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="advertisement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="date.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

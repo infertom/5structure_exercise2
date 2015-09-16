@@ -84,7 +84,10 @@
     <ClInclude Include="processrequest.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="advertisement.cpp" />
     <ClCompile Include="buildpage.cpp" />
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="date.cpp" />
     <ClCompile Include="group.cpp" />
     <ClCompile Include="listing.cpp" />
     <ClCompile Include="main.cpp" />
