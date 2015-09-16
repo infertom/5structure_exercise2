@@ -82,7 +82,7 @@ int main (int argc, char *argv[]) {
   /*
    * Bind to the socket
    */
-  bind (listenfd, (struct sockaddr *)&servaddr, sizeof(servaddr));
+  ::bind (listenfd, (struct sockaddr *)&servaddr, sizeof(servaddr));
 
 
   /*
