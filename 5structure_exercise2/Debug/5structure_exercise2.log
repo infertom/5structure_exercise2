@@ -1,10 +1,12 @@
-﻿生成启动时间为 2015/9/17 19:18:48。
+﻿生成启动时间为 2015/9/21 18:43:06。
      1>项目“C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise2\5structure_exercise2\5structure_exercise2.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\5structure_exercise2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt date.cpp
-         date.cpp
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt advertisement.cpp listing.cpp
+         listing.cpp
+         advertisement.cpp
+         正在生成代码...
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
@@ -30,4 +32,4 @@
 
 生成成功。
 
-已用时间 00:00:01.22
+已用时间 00:00:02.53
